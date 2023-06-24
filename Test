@@ -1,0 +1,160 @@
+Phần trắc nghiệm
+Lesson 1.
+Câu 1: Chuyển số 23 từ hệ thập phân sang hệ nhị phân:
+A. 10111
+
+Câu 2: Đâu không phải là một ngôn ngữ lập trình?
+
+B. Unicode
+
+
+******Câu 3: Để máy tính có thể hiểu và thực hiện ngôn ngữ lập trình bậc cao, máy tính đã sử dụng một chương trình chuyên dụng được gọi là?
+
+B. Chương trình bậc cao
+
+
+Lesson 2:
+Câu 4:  Đâu là câu lệnh gán không hợp lệ?
+
+B. false = True
+
+
+Câu 5: Từ nào dưới đây có thể được sử dụng để đặt tên biến?
+
+D. are
+
+*******Câu 6: Đâu không phải là quy tắc đặt tên biến trong Python
+
+C. Tên biến cần có ý nghĩa nhất định
+
+
+Lesson 3:
+Câu 7: Đâu là câu lệnh nhập một số nguyên từ bàn phím?
+
+C. str = int(input(“Nhập vào một số: ”))
+
+****Câu 8: Cho đoạn chương trình
+x = "123"
+y = int(x)
+sun = y + 10.5
+print(type(sum))
+Kiểu dữ liệu của biến sum sau khi thực hiện chương trình là:
+
+B. float
+
+
+Câu 9: Cho đoạn chương trình:
+a, b = 2, 5
+x = a**2 + b//2
+Sau chương trình trên, giá trị của biến x là:
+
+B. 6
+
+
+Lesson 4: 
+Câu 10: Điền vào chỗ trống
+TRUE ___ FALSE = FALSE
+A. and
+
+
+Câu 11:Cho đoạn chương trình:
+a, b, c = 5, 8, 2
+y = a < 5 and c >= 4
+z = 12 < b or not y
+x = not z
+Sau chương trình trên, giá trị của biến x là:
+
+D. Chương trình lỗi
+
+Câu 12: Đâu là cấu trúc lệnh if trong Python?
+A. if <Điều kiện> 
+<Khối lệnh>
+else
+	<Khối lệnh>
+
+
+Câu 13: Trong quy tắc vẽ sơ đồ khối, ký hiệu:
+  
+
+thể hiện ý nghĩa gì?
+
+B. Thể hiện các phép tính toán
+
+Câu 15: Cho đoạn chương trình:
+a, b, c = 6, 2, 9
+m = a > 3 and b > c
+n = 3 < b + c or m
+if not n:
+    x = a
+else:
+    x = b
+Sau chương trình trên, giá trị của biến x là:
+
+D. Chương trình lỗi
+
+Câu 16: Đâu là các kí hiệu so sánh trong Python. Chọn đáp án sai.
+
+D. >, <, =
+
+
+Câu 17: Điền vào chỗ trống
+a = float(intput(“a = ”))
+b = float(intput(“a = ”))
+c = float(intput(“a = ”))
+if _______
+	print(“Cả ba số đều là số dương”)
+
+C. a > 0 or b > 0 or c > 0
+
+
+Câu 17: Đoạn chương trình sau thực hiện công việc gì?
+k = int(intput(“Nhập vào một số nguyên dương: ”))
+if k <= 0:
+	print(“Bạn nhập sai rồi!”)
+A. Kiểm tra số vừa nhập có đúng yêu cầu hay không
+
+
+Câu 18: Năm nhuận là năm chia hết cho 400 hoặc n chia hết cho 4 đồng thời không chia hết cho 100. Biểu thức biểu diễn kiểm tra năm nhuận là:
+A. n % 4 == 100 or ( n % 4 == 0 and n % 100 == 0)
+
+
+Câu 19: Cho đoạn chương trình:
+x, y, z = 10, 5, 7
+if x > y and y < z or z > x:
+    print("Condition 1")
+elif (x % y == 0 or y % z == 0) and z % x != 0:
+    print("Condition 2")
+else:
+    print("Condition 3")
+Sau chương trình trên, kết quả in lên màn hình là gì?
+A. Condition 1
+
+
+Câu 20: Cho đoạn chương trình:
+x, y, z = 10, 5, 7
+if x > y:
+    if y > z:
+        result = "A"
+    elif x > z:
+        result = "B"
+    else:
+        result = "C"
+else:
+    if x > z:
+        result = "D"
+    elif y > z:
+        result = "E"
+    else:
+        result = "F"
+
+if x % 3 == 0:
+    result += "1"
+elif y % 3 == 0:
+    result += "2"
+else:
+    result += "3"
+
+print(result)
+Sau chương trình trên, kết quả in lên màn hình là gì?
+
+C. "B3" 
